@@ -36,15 +36,19 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+> [!TIP]
+> The Archive ships with built-in themes from
+> [`Zettelkasten-Method/The-Archive-Themes`][gh-repo] which includes the
+> Catppuccin flavors. Select your desired flavor in Settings under Appearance.
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
+[gh-repo]: https://github.com/Zettelkasten-Method/The-Archive-Themes
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+1. Download the `theme.json` file for the flavor of your choice.
+2. Open the app and go to **Settings** > **Appearance** > **Open Theme
+   Manager**.
+3. Copy the downloaded file into the directory opened in the previous step.
+4. Within the app, select the theme you copied from the drop-down menu under
+   _Theme Settings_.
 
 ## 💝 Thanks to
 
