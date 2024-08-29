@@ -3,7 +3,7 @@ whiskers:
   version: "2.4.0"
   matrix:
     - flavor
-  filename: "catppuccin-{{ flavor.identifier }}.theme.json"
+  filename: "themes/catppuccin-{{ flavor.identifier }}.theme.json"
 ---
 {
   "name": "Catppuccin {{ flavor.name }}",
