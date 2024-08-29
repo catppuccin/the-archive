@@ -48,7 +48,7 @@
 
 ## 💝 Thanks to
 
-- [@rogeruiz](https://github.com/rogeruiz)
+- [rogeruiz](https://github.com/rogeruiz)
 
 &nbsp;
 
