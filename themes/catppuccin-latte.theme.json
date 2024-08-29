@@ -1,6 +1,6 @@
 {
-  "name": "Catppuccin Frappé",
-  "style": "Dark",
+  "name": "Catppuccin Latte",
+  "style": "Light",
   "author": [
     {
       "name": "Roger Steve Ruiz",
@@ -10,49 +10,49 @@
   ],
   "version": "1.0.0",
   "editor": {
-    "backgroundColor": "#303446",
-    "caretColor": "#f2d5cf",
+    "backgroundColor": "#eff1f5",
+    "caretColor": "#dc8a78",
     "selection": {
-      "color": "#b5bfe2",
-      "backgroundColor": "#414559",
-      "unfocusedBackgroundColor": "#414559"
+      "color": "#5c5f77",
+      "backgroundColor": "#ccd0da",
+      "unfocusedBackgroundColor": "#ccd0da"
     },
     "highlight": {
-      "backgroundColor": "#f2d5cf",
-      "unfocusedBackgroundColor": "#f2d5cf"
+      "backgroundColor": "#dc8a78",
+      "unfocusedBackgroundColor": "#dc8a78"
     }
   },
   "savedSearchesSidebar": {
-    "color": "#c6d0f5",
-    "backgroundColor": "#232634",
-    "highlightedBackgroundColor": "#292c3c",
+    "color": "#4c4f69",
+    "backgroundColor": "#dce0e8",
+    "highlightedBackgroundColor": "#e6e9ef",
     "border": false,
     "iconColors": {
-      "default": "#8caaee"
+      "default": "#1e66f5"
     }
   },
   "resultsList": {
-    "color": "#c6d0f5",
-    "backgroundColor": "#303446",
-    "alternateBackgroundColor": "#232634",
+    "color": "#4c4f69",
+    "backgroundColor": "#eff1f5",
+    "alternateBackgroundColor": "#dce0e8",
     "selection": {
-      "color": "#303446",
-      "unfocusedColor": "#303446",
-      "backgroundColor": "#f2d5cf",
-      "unfocusedBackgroundColor": "#f2d5cf"
+      "color": "#eff1f5",
+      "unfocusedColor": "#eff1f5",
+      "backgroundColor": "#dc8a78",
+      "unfocusedBackgroundColor": "#dc8a78"
     },
-    "border": "#414559"
+    "border": "#ccd0da"
   },
   "styles": {
     "base": {
-      "color": "#c6d0f5"
+      "color": "#4c4f69"
     },
     "h1": {
       "font": {
         "style": "bold"
       },
       "syntax": {
-        "color": "#e78284"
+        "color": "#d20f39"
       }
     },
     "h2": {
@@ -60,7 +60,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#ef9f76"
+        "color": "#fe640b"
       }
     },
     "h3": {
@@ -68,7 +68,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#e5c890"
+        "color": "#df8e1d"
       }
     },
     "h4": {
@@ -76,7 +76,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#a6d189"
+        "color": "#40a02b"
       }
     },
     "h5": {
@@ -84,7 +84,7 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#85c1dc"
+        "color": "#209fb5"
       }
     },
     "h6": {
@@ -92,31 +92,31 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#babbf1"
+        "color": "#7287fd"
       }
     },
     "horizontalRule": {
-      "color": "#626880",
+      "color": "#acb0be",
       "syntax": {
-        "color": "#626880"
+        "color": "#acb0be"
       }
     },
     "codeBlock": {
-      "color": "#c6d0f5",
-      "backgroundColor": "#414559"
+      "color": "#4c4f69",
+      "backgroundColor": "#ccd0da"
     },
     "inlineCode": {
-      "color": "#c6d0f5",
-      "backgroundColor": "#51576d"
+      "color": "#4c4f69",
+      "backgroundColor": "#bcc0cc"
     },
     "blockquote": {
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "list": {
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "emphasis": {
@@ -124,7 +124,7 @@
         "style": "italic"
       },
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "strong": {
@@ -132,35 +132,35 @@
         "style": "bold"
       },
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "image": {
-      "color": "#c6d0f5",
+      "color": "#4c4f69",
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "footnote": {
-      "color": "#c6d0f5",
+      "color": "#4c4f69",
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "link": {
-      "color": "#8caaee",
+      "color": "#1e66f5",
       "syntax": {
-        "color": "#8caaee"
+        "color": "#1e66f5"
       }
     },
     "referenceDefinition": {
-      "color": "#c6d0f5",
+      "color": "#4c4f69",
       "syntax": {
-        "color": "#c6d0f5"
+        "color": "#4c4f69"
       }
     },
     "comment": {
-      "color": "#a5adce",
+      "color": "#9ca0b0",
       "font": {
         "style": "regular"
       }
