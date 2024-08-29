@@ -1,0 +1,176 @@
+---
+whiskers:
+  version: "2.0.0"
+  matrix:
+    - flavor
+  filename: "catppuccin-{{ flavor.identifier }}.theme.json"
+---
+{
+  "name": "Catppuccin {{ flavor.name }}",
+  "style": "{% if flavor.light %}Light{% else %}Dark{% endif %}",
+  "author": [
+    {
+      "name": "Roger Steve Ruiz",
+      "url": "https://rog.gr/",
+      "basedOn": "https://github.com/catppuccin/catppuccin"
+    }
+  ],
+  "version": "1.0.0",
+  "editor": {
+    "backgroundColor": "#{{ base.hex }}",
+    "caretColor": "#{{ rosewater.hex }}",
+    "selection": {
+      "color": "#{{ subtext1.hex }}",
+      "backgroundColor": "#{{ surface0.hex }}",
+      "unfocusedBackgroundColor": "#{{ surface0.hex }}"
+    },
+    "highlight": {
+      "backgroundColor": "#{{ rosewater.hex }}",
+      "unfocusedBackgroundColor": "#{{ rosewater.hex }}"
+    }
+  },
+  "savedSearchesSidebar": {
+    "color": "#{{ text.hex }}",
+    "backgroundColor": "#{{ crust.hex }}",
+    "highlightedBackgroundColor": "#{{ mantle.hex }}",
+    "border": false,
+    "iconColors": {
+      "default": "#{{ blue.hex }}"
+    }
+  },
+  "resultsList": {
+    "color": "#{{ text.hex }}",
+    "backgroundColor": "#{{ base.hex }}",
+    "alternateBackgroundColor": "#{{ crust.hex }}",
+    "selection": {
+      "color": "#{{ base.hex }}",
+      "unfocusedColor": "#{{ base.hex }}",
+      "backgroundColor": "#{{ rosewater.hex }}",
+      "unfocusedBackgroundColor": "#{{ rosewater.hex }}"
+    },
+    "border": "#{{ surface0.hex }}"
+  },
+  "styles": {
+    "base": {
+      "color": "#{{ text.hex }}"
+    },
+    "h1": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ red.hex}}"
+      }
+    },
+    "h2": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ peach.hex}}"
+      }
+    },
+    "h3": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ yellow.hex }}"
+      }
+    },
+    "h4": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ green.hex }}"
+      }
+    },
+    "h5": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ sapphire.hex }}"
+      }
+    },
+    "h6": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ lavender.hex }}"
+      }
+    },
+    "horizontalRule": {
+      "color": "#{{ surface2.hex }}",
+      "syntax": {
+        "color": "#{{ surface2.hex }}"
+      }
+    },
+    "codeBlock": {
+      "color": "#{{ text.hex }}",
+      "backgroundColor": "#{{ surface0.hex }}"
+    },
+    "inlineCode": {
+      "color": "#{{ text.hex }}",
+      "backgroundColor": "#{{ surface1.hex }}"
+    },
+    "blockquote": {
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "list": {
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "emphasis": {
+      "font": {
+        "style": "italic"
+      },
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "strong": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "image": {
+      "color": "#{{ text.hex }}",
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "footnote": {
+      "color": "#{{ text.hex }}",
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "link": {
+      "color": "#{{ blue.hex }}",
+      "syntax": {
+        "color": "#{{ blue.hex }}"
+      }
+    },
+    "referenceDefinition": {
+      "color": "#{{ text.hex }}",
+      "syntax": {
+        "color": "#{{ text.hex }}"
+      }
+    },
+    "comment": {
+      "color": "#{{ overlay0.hex }}",
+      "font": {
+        "style": "regular"
+      }
+    }
+  }
+}
