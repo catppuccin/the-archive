@@ -1,0 +1,176 @@
+---
+whiskers:
+  version: "2.0.0"
+  matrix:
+    - flavor
+  filename: "Catppuccin {{ flavor.name }}.theme.json"
+---
+{
+  "name": "Catppuccin {{ flavor.name }}",
+  "style": "{% if flavor.light %}Light{% else %}Dark{% endif %}",
+  "author": [
+    {
+      "name": "Roger Steve Ruiz",
+      "url": "https://rog.gr/",
+      "basedOn": "https://github.com/catppuccin/catppuccin"
+    }
+  ],
+  "version": "1.0.0",
+  "editor": {
+    "backgroundColor": "#{{ flavor.colors.base.hex }}",
+    "caretColor": "#{{ flavor.colors.rosewater.hex }}",
+    "selection": {
+      "color": "#{{ flavor.colors.subtext1.hex }}",
+      "backgroundColor": "#{{ flavor.colors.surface0.hex }}",
+      "unfocusedBackgroundColor": "#{{ flavor.colors.surface0.hex }}"
+    },
+    "highlight": {
+      "backgroundColor": "#{{ flavor.colors.rosewater.hex }}",
+      "unfocusedBackgroundColor": "#{{ flavor.colors.rosewater.hex }}"
+    }
+  },
+  "savedSearchesSidebar": {
+    "color": "#{{ flavor.colors.text.hex }}",
+    "backgroundColor": "#{{ flavor.colors.crust.hex }}",
+    "highlightedBackgroundColor": "#{{ flavor.colors.mantle.hex }}",
+    "border": false,
+    "iconColors": {
+      "default": "#{{ flavor.colors.blue.hex }}"
+    }
+  },
+  "resultsList": {
+    "color": "#{{ flavor.colors.text.hex }}",
+    "backgroundColor": "#{{ flavor.colors.base.hex }}",
+    "alternateBackgroundColor": "#{{ flavor.colors.crust.hex }}",
+    "selection": {
+      "color": "#{{ flavor.colors.base.hex }}",
+      "unfocusedColor": "#{{ flavor.colors.base.hex }}",
+      "backgroundColor": "#{{ flavor.colors.rosewater.hex }}",
+      "unfocusedBackgroundColor": "#{{ flavor.colors.rosewater.hex }}"
+    },
+    "border": "#{{ flavor.colors.surface0.hex }}"
+  },
+  "styles": {
+    "base": {
+      "color": "#{{ flavor.colors.text.hex }}"
+    },
+    "h1": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.red.hex}}"
+      }
+    },
+    "h2": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.peach.hex}}"
+      }
+    },
+    "h3": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.yellow.hex }}"
+      }
+    },
+    "h4": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.green.hex }}"
+      }
+    },
+    "h5": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.sapphire.hex }}"
+      }
+    },
+    "h6": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.lavender.hex }}"
+      }
+    },
+    "horizontalRule": {
+      "color": "#{{ flavor.colors.surface2.hex }}",
+      "syntax": {
+        "color": "#{{ flavor.colors.surface2.hex }}"
+      }
+    },
+    "codeBlock": {
+      "color": "#{{ flavor.colors.text.hex }}",
+      "backgroundColor": "#{{ flavor.colors.surface0.hex }}"
+    },
+    "inlineCode": {
+      "color": "#{{ flavor.colors.text.hex }}",
+      "backgroundColor": "#{{ flavor.colors.surface1.hex }}"
+    },
+    "blockquote": {
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "list": {
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "emphasis": {
+      "font": {
+        "style": "italic"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "strong": {
+      "font": {
+        "style": "bold"
+      },
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "image": {
+      "color": "#{{ flavor.colors.text.hex }}",
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "footnote": {
+      "color": "#{{ flavor.colors.text.hex }}",
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "link": {
+      "color": "#{{ flavor.colors.blue.hex }}",
+      "syntax": {
+        "color": "#{{ flavor.colors.blue.hex }}"
+      }
+    },
+    "referenceDefinition": {
+      "color": "#{{ flavor.colors.text.hex }}",
+      "syntax": {
+        "color": "#{{ flavor.colors.text.hex }}"
+      }
+    },
+    "comment": {
+      "color": "#{{ flavor.colors.subtext0.hex }}",
+      "font": {
+        "style": "regular"
+      }
+    }
+  }
+}
