@@ -18,21 +18,23 @@ whiskers:
   "version": "1.0.0",
   "editor": {
     "backgroundColor": "#{{ base.hex }}",
-    "caretColor": "#{{ rosewater.hex }}",
+    "caretColor": "#{{ mauve.hex }}",
     "selection": {
       "color": "#{{ subtext1.hex }}",
       "backgroundColor": "#{{ surface0.hex }}",
+      "unfocusedColor": "#{{ subtext1.hex }}",
       "unfocusedBackgroundColor": "#{{ surface0.hex }}"
     },
     "highlight": {
-      "backgroundColor": "#{{ rosewater.hex }}",
-      "unfocusedBackgroundColor": "#{{ rosewater.hex }}"
+      "color": "#{{ base.hex }}",
+      "backgroundColor": "#{{ mauve.hex }}",
+      "unfocusedBackgroundColor": "#{{ mauve.hex }}"
     }
   },
   "savedSearchesSidebar": {
     "color": "#{{ text.hex }}",
     "backgroundColor": "#{{ crust.hex }}",
-    "highlightedBackgroundColor": "#{{ mantle.hex }}",
+    "highlightedBackgroundColor": "#{{ mauve.hex }}",
     "border": false,
     "iconColors": {
       "default": "#{{ blue.hex }}"
@@ -44,9 +46,9 @@ whiskers:
     "alternateBackgroundColor": "#{{ crust.hex }}",
     "selection": {
       "color": "#{{ base.hex }}",
+      "backgroundColor": "#{{ mauve.hex }}",
       "unfocusedColor": "#{{ base.hex }}",
-      "backgroundColor": "#{{ rosewater.hex }}",
-      "unfocusedBackgroundColor": "#{{ rosewater.hex }}"
+      "unfocusedBackgroundColor": "#{{ mauve.hex }}"
     },
     "border": "#{{ surface0.hex }}"
   },
