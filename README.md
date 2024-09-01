@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/rogeruiz/the-archive/stargazers"><img src="https://img.shields.io/github/stars/rogeruiz/the-archive?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/rogeruiz/the-archive/issues"><img src="https://img.shields.io/github/issues/rogeruiz/the-archive?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/rogeruiz/the-archive/contributors"><img src="https://img.shields.io/github/contributors/rogeruiz/the-archive?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/the-archive/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/the-archive?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/the-archive/issues"><img src="https://img.shields.io/github/issues/catppuccin/the-archive?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/the-archive/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/the-archive?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
