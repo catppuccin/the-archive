@@ -38,8 +38,9 @@
 
 > [!TIP]
 > The Archive ships with built-in themes from
-> [`Zettelkasten-Method/The-Archive-Themes`][gh-repo] which includes the
-> Catppuccin flavors. Select your desired flavor in Settings under Appearance.
+> [`Zettelkasten-Method/The-Archive-Themes`][gh-repo] which will include all
+> Catppuccin flavors once the PR (Zettelkasten-Method/The-Archive-Themes#19)
+> is merged.
 
 [gh-repo]: https://github.com/Zettelkasten-Method/The-Archive-Themes
 
