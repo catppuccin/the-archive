@@ -36,15 +36,17 @@
 
 ## Usage
 
-> [!TIP]
-> The Archive ships with built-in themes from
-> [`Zettelkasten-Method/The-Archive-Themes`][gh-repo] which will include all
-> Catppuccin flavors once the PR (Zettelkasten-Method/The-Archive-Themes#19)
-> is merged.
+Catppuccin is [included by default][gh-archive-themes] within The Archive! You
+can select a Catppuccin flavour within the application under **Settings** >
+**Appearance**.
 
-[gh-repo]: https://github.com/Zettelkasten-Method/The-Archive-Themes
+[gh-archive-themes]: https://github.com/Zettelkasten-Method/The-Archive-Themes
 
-1. Download the `theme.json` file for the flavor of your choice.
+Alternatively, you can manually import the themes from this repository by
+following the instructions below:
+
+1. Download the `theme.json` file for the flavor of your choice from
+   [themes/](./themes).
 2. Open the app and go to **Settings** > **Appearance** > **Open Theme
    Manager**.
 3. Copy the downloaded file into the directory opened in the previous step.
